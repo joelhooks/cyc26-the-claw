@@ -65,6 +65,7 @@ The stack is the load-bearing floor. The talk is the product.
 - Run JoelClaw from this repo
 - Replay the full Cascadia or AIE workshop on stage
 - Bun or npm as the install story
+- A Life field, worker farm, or highlight-video encoder in this repo until a tick journal exists and Joel names the home
 
 ## Decision boundaries
 

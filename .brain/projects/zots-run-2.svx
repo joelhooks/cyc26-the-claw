@@ -30,3 +30,5 @@ No model. No just-bash. No course dump. Deterministic so it works on stage.
 The first run died of cathedral. This run has to survive a 25-minute room and `pnpm check`.
 
 The joke is still the design: minions of toil take the shortest path. The fence is why `--no-verify` becomes a confused executor, not a green commit.
+
+A later cut can grow a Life field: local rules, a tick journal, replay. That is not this slice. Do not put a model in every cell.
