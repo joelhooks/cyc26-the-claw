@@ -1,0 +1,29 @@
+{
+  "name": "@cyc26-the-claw/cli",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "the-claw": "./bin/the-claw"
+  },
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "build": "tsc -p tsconfig.build.json",
+    "cli": "pnpm run --silent build && node dist/cli.js",
+    "check": "pnpm run typecheck",
+    "pretest": "pnpm run --silent build",
+    "prepublishOnly": "pnpm run build"
+  },
+  "dependencies": {
+    "@cyc26-the-claw/core": "workspace:*",
+    "@effect/platform-node": "4.0.0-rc.110",
+    "effect": "4.0.0-rc.110",
+    "xstate": "5.32.5"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.3",
+    "typescript": "7.0.2",
+    "vitest": "4.1.10"
+  }
+}

@@ -1,0 +1,49 @@
+---
+title: "Claw lineage for CYC26"
+type: "resource"
+status: "active"
+created_at: "2026-08-19"
+privacy: "public"
+---
+
+# Claw lineage
+
+Several claws sit behind the title. They are related. They are not the same talk.
+
+This page is a public-safe map. It does not copy private course design.
+
+## OpenClaw
+
+Peter Steinberger's OpenClaw is the spark: a persistent agent that lives on your computer, with identity files, channels, and a place to inhabit. Joel used it, liked it, and wanted one that was his.
+
+Public notes exist. Do not paste raw interview transcripts here.
+
+## JoelClaw
+
+Joel stopped renting the shape of an agent and built the claw himself. GrimLock came first. Then the owned runtime: Pi as harness, event bus, memory, tools, operating rules.
+
+Published spine: the model is not the agent. The agent is a model inside a harness, operating inside context. Swap the model and the agent can stay yours. Lose the harness and you have a clever stranger in an empty room.
+
+Cascadia said the same thing as a swarm talk: more agents add an orchestration tax. Own the loops. Demand receipts.
+
+## The Claw: Minions of Toil (course)
+
+Same title as this talk. Flagship wizardshit / Vercel Academy course concept. A roguelite colony sim where Zots — minions of toil — work a dungeon generated from a real codebase. The design claim: game mechanics are agent architecture.
+
+The course bible is private. This public repo may use the title, the minion register, and the one-line claim. It may not paste lessons, bookends, or the full concept doc.
+
+## This talk
+
+CYC26, 25 minutes. Swarms as the frame. `ts-cli-template` — and this clone — as the floor those minions stand on.
+
+The dungeon still needs rules. Law in `VISION.md` / `AGENTS.md`. Fence in pins, checks, and hooks. Effect Schema on `data/talk.json`. That is the claw-shaped point without shipping the course or the fleet.
+
+## Sources
+
+- Cascadia listing: [AI Agent Swarms Are Amazing](https://cascadiajs.com/2026/talks/ai-agent-swarms-are-amazing)
+- Cascadia riff stack: `https://cascadia-talk-riff-stack.wzrrd.sh/`
+- AIE workshop: [aie-loopcraft-workshop-2026.wzrrd.sh](https://aie-loopcraft-workshop-2026.wzrrd.sh/)
+- Template: [joelhooks/ts-cli-template](https://github.com/joelhooks/ts-cli-template)
+- Dillon tweet: [eli5 effect](https://x.com/dillon_mulroy/status/2090092865481277646)
+- ShitRat lore pages: OpenClaw → JoelClaw, "own your harness"
+- Course title and one-line claim from the wizardshit skill / public CYC listing

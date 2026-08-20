@@ -1,0 +1,41 @@
+---
+title: "CYC26 abstract draft"
+type: "project"
+status: "active"
+created_at: "2026-08-19"
+privacy: "public"
+---
+
+# Abstract draft
+
+This is a working draft. It is not submitted copy. Riff here, then keep `data/talk.json` in sync. `abstractStatus` stays `draft` until Joel says otherwise.
+
+Do not treat this page as Joel's final voice. Invent nothing he did not say. Tighten from sourced theses only.
+
+## Current draft
+
+A swarm of coding agents will take the shortest path. If that path is sludge, you get sludge at scale. This talk zooms in on the floor those minions stand on: a TypeScript CLI scaffold with written law, an enforceable fence, and Effect so bad input fails loud. Cascadia covered why swarms need a harness. The AIE workshop taught the reliability floor. JoelClaw is what happens when you stop renting the shape of an agent and build the claw yourself. Twenty-five minutes. You leave with a clone command.
+
+## What it has to do
+
+- Keep the title **The Claw: Minions of Toil**
+- Fit a 25-minute general web-dev room
+- Name swarms without remounting Cascadia
+- Name the floor (`ts-cli-template` / this clone) without teaching eight workshop lessons
+- Let claw / JoelClaw / minions register without dumping private course design
+- End on a concrete takeaway: clone the floor
+
+## Sourced lines we can steal from
+
+- Dillon Mulroy, 2026-08-19: "effect make typescript good. typescript hard to make good. effect make good typescript easy."
+- Cascadia riff: more agents was not the hard part; the harness owns the scary parts.
+- AIE Lesson 01/02: write the stops first; Effect Schema; fail loud; save a receipt.
+- `ts-cli-template` VISION: agents take the shortest path; cheap path = honest path.
+- JoelClaw lore: stop renting the shape of an agent; own the harness.
+- The Claw course pitch (public title only): minions of toil; game mechanics are agent architecture. Do not paste the private course bible.
+
+## Open riff questions
+
+- How much JoelClaw vs how much template?
+- Name Dillon on stage or just put the tweet up?
+- Keep "you leave with a clone command" or make it sharper?

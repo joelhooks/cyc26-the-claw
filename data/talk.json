@@ -1,0 +1,10 @@
+{
+  "title": "The Claw: Minions of Toil",
+  "conference": "Commit Your Code 2026",
+  "venue": "Capital One Campus, Plano",
+  "date": "2026-09-04",
+  "time": "2:00–2:25 pm",
+  "track": "AI",
+  "abstractStatus": "draft",
+  "abstract": "A swarm of coding agents will take the shortest path. If that path is sludge, you get sludge at scale. This talk zooms in on the floor those minions stand on: a TypeScript CLI scaffold with written law, an enforceable fence, and Effect so bad input fails loud. Cascadia covered why swarms need a harness. The AIE workshop taught the reliability floor. JoelClaw is what happens when you stop renting the shape of an agent and build the claw yourself. Twenty-five minutes. You leave with a clone command."
+}

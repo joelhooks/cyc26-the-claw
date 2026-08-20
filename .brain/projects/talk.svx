@@ -1,0 +1,59 @@
+---
+title: "CYC26 — The Claw: Minions of Toil"
+type: "project"
+status: "active"
+created_at: "2026-08-19"
+privacy: "public"
+---
+
+# CYC26 — The Claw: Minions of Toil
+
+Working brief for the Commit Your Code 2026 talk. Title stays. Abstract is a draft.
+
+## Slot
+
+- Conference: [Commit Your Code 2026](https://www.commityourcode.com/) — Capital One Campus, Plano
+- Agenda: [commityourcode.com/agenda](https://www.commityourcode.com/agenda)
+- Title: **The Claw: Minions of Toil**
+- Track: AI
+- Time: Friday 2026-09-04, 2:00–2:25 pm (25 minutes)
+- Machine contract: `data/talk.json`
+
+Adjacent AI talks that afternoon:
+
+- 1:30 — Michael Liendo, *Trust, But Verify: Human-in-the-Loop for Agents That Actually Matter*
+- 2:30 — Kyle Taylor, *Your Prompt Is Not a Unit Test*
+
+Room is a $40 six-track charity conference. Do not assume Effect, OpenClaw, herdr, or CascadiaJS context.
+
+## Thesis
+
+Swarms stay the frame. The zoom-in is the software the swarm works on.
+
+Minions of toil only produce durable results when the cheap path is the honest path: written law, an enforceable fence, Effect at the door, receipts the next agent can read.
+
+This repo is that floor. It was cloned from `joelhooks/ts-cli-template` on purpose.
+
+## What this talk is not
+
+Not a second Cascadia. Cascadia owns the field report: more agents was not the hard part; the harness owns freshness, permissions, approvals, side effects, receipts.
+
+Not the AIE workshop. That is eight lessons. This slot is 25 minutes.
+
+Not The Claw course and not a JoelClaw demo. Those claws are lineage. See [claw-lineage](../resources/claw-lineage.svx).
+
+## 25-minute cut
+
+1. Title is a joke. A swarm without a floor is more confident sludge.
+2. Dillon's ELI5: effect make typescript good.
+3. One Cascadia sentence: more agents was not the hard part.
+4. The floor is a repo, not a prompt.
+5. Show this clone. `pnpm cli talk data/talk.json`.
+6. Stop.
+
+If time dies, cut 3 before 5.
+
+## Related pages
+
+- [Draft abstract](./abstract.svx)
+- [Claw lineage](../resources/claw-lineage.svx)
