@@ -15,10 +15,10 @@ The pinned stack is declared in workspace `package.json` files and summarized in
 
 ## Packages
 
-| Package                | Path            | Role                            |
-| ---------------------- | --------------- | ------------------------------- |
-| `@cyc26-the-claw/core` | `packages/core` | Talk slot Schema and formatting |
-| `@cyc26-the-claw/cli`  | `apps/cli`      | Effect CLI composition root     |
+| Package | Path | Role |
+| --- | --- | --- |
+| `@cyc26-the-claw/core` | `packages/core` | Talk slot, zot colony, mood machine |
+| `@cyc26-the-claw/cli` | `apps/cli` | Effect CLI composition root |
 
 ## Commands
 
@@ -30,6 +30,9 @@ The pinned stack is declared in workspace `package.json` files and summarized in
 | `pnpm test` | Build and run the Vitest suite once |
 | `pnpm build` | Compile packages into `dist/` |
 | `pnpm cli talk data/talk.json` | Print the current slot and draft abstract |
+| `pnpm cli look` | Examine this repo as a dungeon |
+| `pnpm cli summon --role scout` | Summon a zot into `data/colony.json` |
+| `pnpm cli toil` | Advance one colony tick |
 | `pnpm vendor:agent-sources` | Shallow-clone Effect, effect-solutions, and xstate mirrors |
 | `pnpm turbo run check test build` | Required validation before claiming a change is ready |
 

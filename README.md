@@ -7,6 +7,9 @@ Scaffolded from [`joelhooks/ts-cli-template`](https://github.com/joelhooks/ts-cl
 ```sh
 pnpm install
 pnpm cli talk data/talk.json
+pnpm cli look
+pnpm cli summon --role scout
+pnpm cli toil
 ```
 
 ## Slot
@@ -24,12 +27,12 @@ It is not The Claw course. It is not JoelClaw. Those are related claws. Sources 
 
 ## Workspace
 
-| Path             | Package                | Role                  |
-| ---------------- | ---------------------- | --------------------- |
-| `apps/cli`       | `@cyc26-the-claw/cli`  | Effect CLI entry      |
-| `packages/core`  | `@cyc26-the-claw/core` | Talk slot Schema      |
-| `data/talk.json` | —                      | Slot + draft abstract |
-| `.brain/`        | —                      | Talk notes            |
+| Path             | Package                | Role                   |
+| ---------------- | ---------------------- | ---------------------- |
+| `apps/cli`       | `@cyc26-the-claw/cli`  | Effect CLI entry       |
+| `packages/core`  | `@cyc26-the-claw/core` | Talk slot + zot colony |
+| `data/talk.json` | —                      | Slot + draft abstract  |
+| `.brain/`        | —                      | Talk notes             |
 
 ## What is in the stack?
 
@@ -51,6 +54,9 @@ Same floor as the template:
 | `pnpm test` | Vitest once |
 | `pnpm build` | Compile packages |
 | `pnpm cli talk data/talk.json` | Print the slot and draft abstract |
+| `pnpm cli look` | Examine this repo as a dungeon |
+| `pnpm cli summon --role scout` | Summon a zot |
+| `pnpm cli toil` | Advance one tick |
 | `pnpm cli talk data/talk.json --json` | Machine-readable slot |
 | `pnpm turbo run check test build` | Full gate |
 

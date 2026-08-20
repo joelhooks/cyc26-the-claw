@@ -1,0 +1,32 @@
+---
+title: "Zots run 2"
+type: "project"
+status: "active"
+created_at: "2026-08-19"
+privacy: "public"
+---
+
+# Zots run 2
+
+Joel asked for another run at Zots on 2026-08-19, inside the CYC26 talk repo.
+
+Run 1 was the course bible: just-bash as the game engine, a full lexicon, colony sim, Vercel Academy draft. That is not this repo.
+
+Run 2 is a playable slice on the talk floor.
+
+## What shipped
+
+- `the-claw look` — this repo is the dungeon. Only named chambers print. `node_modules` is The Deep Warren.
+- `the-claw summon --role scout|executor|critic`
+- `the-claw toil` — one tick. Life force drops. Mood hops one state.
+- `the-claw colony`
+
+Mood is an XState machine. A zot cannot skip from healthy to spiraling in one tick. That is the Cascadia line in miniature: think in states.
+
+No model. No just-bash. No course dump. Deterministic so it works on stage.
+
+## Why this cut
+
+The first run died of cathedral. This run has to survive a 25-minute room and `pnpm check`.
+
+The joke is still the design: minions of toil take the shortest path. The fence is why `--no-verify` becomes a confused executor, not a green commit.

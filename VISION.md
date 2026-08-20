@@ -20,7 +20,7 @@ Agents take the shortest path. A swarm without a floor produces sludge at scale.
 
 1. Why — this file and `AGENTS.md`
 2. Fence — pins, `pnpm check`, lefthook, hooks that block `--no-verify`
-3. A real Effect CLI that prints a Schema-decoded talk slot from `data/talk.json`
+3. A real Effect CLI that prints a Schema-decoded talk slot and a playable zot slice
 
 The stack is the load-bearing floor. The talk is the product.
 
@@ -35,8 +35,9 @@ The stack is the load-bearing floor. The talk is the product.
 ## Current priorities
 
 1. Riff the abstract until it is short enough for a 25-minute CYC room
-2. Keep the fence honest
-3. Keep talk notes in `.brain/**/*.svx`
+2. Keep the Zot slice small enough to demo live: look, summon, toil
+3. Keep the fence honest
+4. Keep talk notes in `.brain/**/*.svx`
 
 ## Actors
 
