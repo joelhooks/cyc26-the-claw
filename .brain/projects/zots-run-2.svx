@@ -31,4 +31,4 @@ The first run died of cathedral. This run has to survive a 25-minute room and `p
 
 The joke is still the design: minions of toil take the shortest path. The fence is why `--no-verify` becomes a confused executor, not a green commit.
 
-A later cut can grow a Life field: local rules, a tick journal, replay. That is not this slice. Do not put a model in every cell.
+A later cut can grow a Life field: local rules, a tick journal, replay. That is not this slice. Do not put a model in every cell. If the operator surface grows, grow it as a repo-local Pi extension that calls the same core. Do not replace the CLI with a new agent framework.
